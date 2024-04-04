@@ -1,0 +1,55 @@
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 not ready
+Waiting for slave readiness
+10.35.0.20 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Apr 04, 2024 5:17:24 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-04 05:17:24,271 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-04-04 05:17:24,672 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-05794aafdda93cf2617df61d00687167-nongui
+2024-04-04 05:17:31,072 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-04 05:17:31,143 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-04 05:17:33,463 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-04 05:17:33,566 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-04 05:17:33,663 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-04 05:17:33,776 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 05:17:33,871 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:33,871 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:33,872 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:33,872 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:33,872 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 05:17:33,872 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 05:17:34,371 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 05:17:34,372 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 05:17:34,372 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 05:17:34,372 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 05:17:34,463 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-04 05:17:34,463 INFO o.j.r.PluginManagerCMD: Downloading json-lib...

@@ -1,0 +1,120 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 ready
+10.35.0.14 ready
+10.35.0.15 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Mar 29, 2024 10:18:58 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-29 10:18:57,946 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-03-29 10:18:58,358 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-47f707c7d125fb8005ba41e56065c7f4-nongui
+2024-03-29 10:19:05,152 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-03-29 10:19:05,154 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-03-29 10:19:07,654 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-29 10:19:07,850 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-29 10:19:07,944 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-29 10:19:08,157 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-29 10:19:08,344 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 10:19:08,345 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 10:19:08,345 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 10:19:08,345 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 10:19:08,345 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-29 10:19:08,346 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-29 10:19:09,051 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-29 10:19:09,051 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-29 10:19:09,051 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-29 10:19:09,052 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-29 10:19:09,144 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-03-29 10:19:09,145 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-03-29 10:19:10,816 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-03-29 10:19:10,841 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-03-29 10:19:10,843 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Done installing plugins, launching test
+Couldn't start agent for process matching "JMeter" (PID: 496)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+I> No access restrictor found, access to any MBean is allowed
+Starting load test at : Fri Mar 29 10:18:18 UTC 2024
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+Creating summariser <summary>
+Created the tree successfully using PetStoreAPIScriptDynamicBuildNumber1.jmx
+Configuring remote engine: 10.35.0.13
+Starting distributed test with remote engines: [10.35.0.13] @ Fri Mar 29 10:19:27 UTC 2024 (1711707567146)
+Remote engines have been started:[10.35.0.13]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    780 in 00:00:24 =   32.0/s Avg:   268 Min:   191 Max:  4795 Err:   103 (13.21%) Active: 10 Started: 10 Finished: 0
+summary +   1402 in 00:00:29 =   47.9/s Avg:   207 Min:   191 Max:   262 Err:   167 (11.91%) Active: 10 Started: 10 Finished: 0
+summary =   2182 in 00:00:54 =   40.6/s Avg:   229 Min:   191 Max:  4795 Err:   270 (12.37%)
+summary +   1398 in 00:00:30 =   46.8/s Avg:   212 Min:   188 Max:  1439 Err:   192 (13.73%) Active: 10 Started: 10 Finished: 0
+summary =   3580 in 00:01:24 =   42.8/s Avg:   222 Min:   188 Max:  4795 Err:   462 (12.91%)
+summary +   1479 in 00:00:30 =   48.7/s Avg:   204 Min:   188 Max:   260 Err:   214 (14.47%) Active: 10 Started: 10 Finished: 0
+summary =   5059 in 00:01:54 =   44.4/s Avg:   217 Min:   188 Max:  4795 Err:   676 (13.36%)
+summary +   1398 in 00:00:30 =   46.8/s Avg:   212 Min:   188 Max:  1264 Err:   194 (13.88%) Active: 10 Started: 10 Finished: 0
+summary =   6457 in 00:02:24 =   44.9/s Avg:   216 Min:   188 Max:  4795 Err:   870 (13.47%)
+summary +   1480 in 00:00:31 =   48.2/s Avg:   206 Min:   189 Max:   339 Err:   183 (12.36%) Active: 10 Started: 10 Finished: 0
+summary =   7937 in 00:02:55 =   45.5/s Avg:   214 Min:   188 Max:  4795 Err:  1053 (13.27%)
+summary +    368 in 00:00:06 =   59.5/s Avg:   205 Min:   189 Max:   224 Err:    62 (16.85%) Active: 0 Started: 10 Finished: 10
+summary =   8305 in 00:03:01 =   46.0/s Avg:   214 Min:   188 Max:  4795 Err:  1115 (13.43%)
+Tidying up remote @ Fri Mar 29 10:22:37 UTC 2024 (1711707757216)
+Exiting remote servers:[ClientJMeterEngine [hostAndPort=10.35.0.13]]
+Exiting remote server:ClientJMeterEngine [hostAndPort=10.35.0.13]
+... end of run

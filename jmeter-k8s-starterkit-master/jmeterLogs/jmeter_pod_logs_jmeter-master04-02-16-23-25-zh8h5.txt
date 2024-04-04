@@ -1,0 +1,49 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 ready
+10.35.0.14 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Apr 02, 2024 10:54:15 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-02 10:54:15,105 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx

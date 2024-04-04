@@ -1,0 +1,99 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 ready
+Waiting for slave readiness
+10.35.0.13 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Mar 21, 2024 7:55:40 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-21 07:55:39,990 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-03-21 07:55:40,682 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-b45adf95dd11025fa1d2c6dd7174dbd3-nongui
+2024-03-21 07:55:47,444 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-03-21 07:55:47,446 INFO o.j.r.PluginManagerCMD: Params line is: wiremock.jmx
+2024-03-21 07:55:49,581 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-21 07:55:49,685 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-21 07:55:49,746 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-21 07:55:49,950 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-21 07:55:50,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:55:50,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:55:50,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:55:50,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:55:50,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-21 07:55:50,049 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-21 07:55:50,651 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-21 07:55:50,651 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-21 07:55:50,651 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-21 07:55:50,651 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-21 07:55:50,742 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-03-21 07:55:50,743 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-03-21 07:55:52,542 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-03-21 07:55:52,545 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-03-21 07:55:52,546 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Done installing plugins, launching test
+Couldn't start agent for process matching "JMeter" (PID: 539)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+Starting load test at : Thu Mar 21 07:54:59 UTC 2024
+I> No access restrictor found, access to any MBean is allowed
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+Creating summariser <summary>
+Created the tree successfully using wiremock.jmx
+Configuring remote engine: 10.35.0.13
+Starting distributed test with remote engines: [10.35.0.13] @ Thu Mar 21 07:56:09 UTC 2024 (1711007769982)
+Remote engines have been started:[10.35.0.13]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    555 in 00:00:10 =   52.9/s Avg:   538 Min:    51 Max:  1501 Err:     0 (0.00%) Active: 125 Started: 125 Finished: 0
+summary +   4565 in 00:00:29 =  156.0/s Avg:   549 Min:    51 Max:  1431 Err:     0 (0.00%) Active: 470 Started: 470 Finished: 0
+summary =   5120 in 00:00:40 =  128.8/s Avg:   547 Min:    51 Max:  1501 Err:     0 (0.00%)
+summary +   3562 in 00:00:30 =  116.8/s Avg:   611 Min:    51 Max:  2142 Err:     0 (0.00%) Active: 862 Started: 862 Finished: 0
+summary =   8682 in 00:01:10 =  123.6/s Avg:   573 Min:    51 Max:  2142 Err:     0 (0.00%)
+summary +   6092 in 00:00:30 =  205.8/s Avg:   642 Min:    51 Max:  1944 Err:     0 (0.00%) Active: 1288 Started: 1288 Finished: 0
+summary =  14774 in 00:01:40 =  148.0/s Avg:   602 Min:    51 Max:  2142 Err:     0 (0.00%)
+summary +   7695 in 00:00:31 =  249.8/s Avg:   699 Min:    51 Max:  3970 Err:     0 (0.00%) Active: 2414 Started: 2414 Finished: 0
+summary =  22469 in 00:02:11 =  172.0/s Avg:   635 Min:    51 Max:  3970 Err:     0 (0.00%)
+summary +   6806 in 00:00:29 =  230.7/s Avg:   765 Min:    51 Max:  4596 Err:     2 (0.03%) Active: 3231 Started: 3231 Finished: 0
+summary =  29275 in 00:02:40 =  182.8/s Avg:   665 Min:    51 Max:  4596 Err:     2 (0.01%)
+summary +   5042 in 00:00:30 =  170.5/s Avg:   971 Min:    51 Max:  4801 Err:    15 (0.30%) Active: 3295 Started: 3295 Finished: 0
+summary =  34317 in 00:03:10 =  180.9/s Avg:   710 Min:    51 Max:  4801 Err:    17 (0.05%)

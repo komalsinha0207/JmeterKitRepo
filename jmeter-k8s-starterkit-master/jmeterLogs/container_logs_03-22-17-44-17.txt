@@ -1,0 +1,93 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 ready
+10.35.0.14 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Mar 22, 2024 12:15:06 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-22 12:15:06,736 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-03-22 12:15:07,353 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-14dd0dcdbe3afe7f5d01ead4ed535737-nongui
+2024-03-22 12:15:13,858 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-03-22 12:15:13,860 INFO o.j.r.PluginManagerCMD: Params line is: wiremock.jmx
+2024-03-22 12:15:16,455 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-22 12:15:16,652 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-22 12:15:16,656 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-22 12:15:16,857 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-22 12:15:16,954 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-22 12:15:16,954 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-22 12:15:16,954 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-22 12:15:16,954 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-22 12:15:16,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-22 12:15:16,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-22 12:15:17,558 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-22 12:15:17,558 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-22 12:15:17,558 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-22 12:15:17,559 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-22 12:15:17,651 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-03-22 12:15:17,651 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-03-22 12:15:19,388 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-03-22 12:15:19,390 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-03-22 12:15:19,549 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Done installing plugins, launching test
+Couldn't start agent for process matching "JMeter" (PID: 499)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+Starting load test at : Fri Mar 22 12:14:27 UTC 2024
+I> No access restrictor found, access to any MBean is allowed
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+Creating summariser <summary>
+Created the tree successfully using wiremock.jmx
+Configuring remote engine: 10.35.0.13
+Starting distributed test with remote engines: [10.35.0.13] @ Fri Mar 22 12:15:35 UTC 2024 (1711109735751)
+Remote engines have been started:[10.35.0.13]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +   1557 in 00:00:16 =   99.3/s Avg:   556 Min:    51 Max:  1776 Err:     0 (0.00%) Active: 167 Started: 167 Finished: 0
+summary +   4298 in 00:00:29 =  146.7/s Avg:   555 Min:    51 Max:  2104 Err:     0 (0.00%) Active: 570 Started: 570 Finished: 0
+summary =   5855 in 00:00:45 =  130.2/s Avg:   555 Min:    51 Max:  2104 Err:     0 (0.00%)
+summary +   6781 in 00:00:31 =  222.3/s Avg:   632 Min:    51 Max:  2002 Err:     0 (0.00%) Active: 1045 Started: 1045 Finished: 0
+summary =  12636 in 00:01:15 =  167.4/s Avg:   597 Min:    51 Max:  2104 Err:     0 (0.00%)
+summary +   6416 in 00:00:30 =  211.0/s Avg:   710 Min:    51 Max:  4798 Err:     0 (0.00%) Active: 2369 Started: 2369 Finished: 0
+summary =  19052 in 00:01:46 =  179.9/s Avg:   635 Min:    51 Max:  4798 Err:     0 (0.00%)
+summary +   6259 in 00:00:29 =  215.8/s Avg:  1150 Min:     0 Max: 11795 Err:   976 (15.59%) Active: 2851 Started: 2851 Finished: 0
+summary =  25311 in 00:02:15 =  187.6/s Avg:   762 Min:     0 Max: 11795 Err:   976 (3.86%)

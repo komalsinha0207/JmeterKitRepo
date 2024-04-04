@@ -1,0 +1,91 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: cleaner
+  namespace: default
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: default
+  name: my-completed-jobs-cleaner-role
+rules:
+- apiGroups: ["batch"]
+  resources: ["jobs"]
+  verbs: ["list", "delete"]
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: my-completed-jobs-cleaner-rolebinding
+  namespace: default
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: my-completed-jobs-cleaner-role
+subjects:
+- kind: ServiceAccount
+  name: cleaner
+  namespace: default
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cleaner-script
+  labels:
+    k8s-app: cleaner
+data:
+  clean.sh: |+
+    #!/usr/bin/env bash
+    echo "Started.....cleaning"
+    sleep 5
+    slave_pods=($(kubectl get pods -n "${namespace}" | grep jmeter-slave | awk '{print $1}'))
+    echo "list of pods ${slave_pods[@]}"
+    for slave_pod in ${slave_pods[@]}
+    do
+       echo "Finding for slave: ${slave_pod}"
+       status=$(kubectl describe pod -n "${namespace}"  ${slave_pod} | grep Reason: | awk -F " " '{print $2}')
+       if [ "${status}" = "Completed" ]; then
+          echo "status is completed for slave:${slave_pod}"
+          kubectl delete pod -n "${namespace}"  ${slave_pod}
+       fi    
+    done
+    master_pods=($(kubectl get pods -n "${namespace}" | grep jmeter-master | awk '{print $1}'))
+    for master_pod in ${master_pods[@]}
+    do
+       echo "Finding for master: ${master_pod}"
+       status=$(kubectl describe pod -n "${namespace}"  ${master_pod} | grep Reason: | awk -F " " '{print $2}')
+       if [ "${status}" = "Completed" ]; then
+          echo "status is completed for master:${master_pod}"
+          kubectl delete pod -n "${namespace}"  ${master_pod}
+       fi
+    done
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: jobs-cleanup
+spec:
+  schedule: "*/1 * * * *"
+  successfulJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          serviceAccountName: cleaner
+          containers:
+          - name: kubectl-container
+            image: bitnami/kubectl:latest
+            command: ["bash", "/tmp/clean.sh"]
+            volumeMounts:
+            - name: cleaner-script
+              mountPath: /tmp/
+          restartPolicy: Never
+          volumes:
+          - name: cleaner-script
+            configMap:
+              name: cleaner-script

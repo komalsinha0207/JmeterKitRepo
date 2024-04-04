@@ -1,0 +1,87 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 ready
+10.35.0.14 ready
+10.35.0.15 ready
+Waiting for slave readiness
+Installing needed plugins for master
+2024-03-26 11:02:44,486 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+Mar 26, 2024 11:02:44 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-26 11:02:44,894 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-a70a7094c68ba9b08907f07fa0d1182a-nongui
+2024-03-26 11:02:51,386 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-03-26 11:02:51,388 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-03-26 11:02:54,085 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-26 11:02:54,100 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-26 11:02:54,187 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-26 11:02:54,391 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-26 11:02:54,490 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 11:02:54,490 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 11:02:54,491 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 11:02:54,491 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 11:02:54,491 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-26 11:02:54,491 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-26 11:02:55,098 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-26 11:02:55,098 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-26 11:02:55,099 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-26 11:02:55,100 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-26 11:02:55,285 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-03-26 11:02:55,285 INFO o.j.r.PluginManagerCMD: Downloading json-lib...

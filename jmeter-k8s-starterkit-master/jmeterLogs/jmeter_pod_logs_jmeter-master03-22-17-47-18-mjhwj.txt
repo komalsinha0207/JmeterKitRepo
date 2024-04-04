@@ -1,0 +1,53 @@
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 not ready
+10.35.0.17 not ready
+Waiting for slave readiness
+10.35.0.16 ready
+10.35.0.17 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Mar 22, 2024 12:18:09 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-22 12:18:09,757 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-03-22 12:18:10,157 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-5d9211d60dad85491b7a68f8890c78df-nongui

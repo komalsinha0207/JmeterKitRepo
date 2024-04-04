@@ -1,0 +1,110 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.13 ready
+10.35.0.14 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Mar 21, 2024 7:47:35 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-21 07:47:35,349 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-03-21 07:47:35,935 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-1837dc600f652952ff507217aadc92e7-nongui
+2024-03-21 07:47:42,551 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-03-21 07:47:42,637 INFO o.j.r.PluginManagerCMD: Params line is: wiremock.jmx
+2024-03-21 07:47:45,243 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-21 07:47:45,436 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-21 07:47:45,440 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-21 07:47:45,743 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-21 07:47:45,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:47:45,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:47:45,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:47:45,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-21 07:47:45,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-21 07:47:45,893 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-21 07:47:46,648 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-21 07:47:46,649 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-21 07:47:46,649 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-21 07:47:46,649 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-21 07:47:46,746 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-03-21 07:47:46,747 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-03-21 07:47:48,735 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-03-21 07:47:48,738 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-03-21 07:47:48,792 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Done installing plugins, launching test
+I> No access restrictor found, access to any MBean is allowed
+Couldn't start agent for process matching "JMeter" (PID: 563)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+Starting load test at : Thu Mar 21 07:46:54 UTC 2024
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+Creating summariser <summary>
+Created the tree successfully using wiremock.jmx
+Configuring remote engine: 10.35.0.13
+Starting distributed test with remote engines: [10.35.0.13] @ Thu Mar 21 07:48:05 UTC 2024 (1711007285694)
+Remote engines have been started:[10.35.0.13]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +   1554 in 00:00:15 =  107.0/s Avg:   626 Min:    52 Max:  1988 Err:     0 (0.00%) Active: 131 Started: 131 Finished: 0
+summary +   8407 in 00:00:30 =  278.6/s Avg:   590 Min:    51 Max:  4502 Err:     0 (0.00%) Active: 233 Started: 233 Finished: 0
+summary =   9961 in 00:00:45 =  222.8/s Avg:   596 Min:    51 Max:  4502 Err:     0 (0.00%)
+summary +  10384 in 00:00:30 =  349.6/s Avg:   613 Min:    51 Max:  5793 Err:     0 (0.00%) Active: 288 Started: 288 Finished: 0
+summary =  20345 in 00:01:14 =  273.4/s Avg:   605 Min:    51 Max:  5793 Err:     0 (0.00%)
+summary +  10884 in 00:00:30 =  362.8/s Avg:   627 Min:    51 Max:  5598 Err:     0 (0.00%) Active: 343 Started: 343 Finished: 0
+summary =  31229 in 00:01:44 =  299.1/s Avg:   612 Min:    51 Max:  5793 Err:     0 (0.00%)
+summary +  10696 in 00:00:30 =  355.7/s Avg:   637 Min:    51 Max:  5002 Err:     0 (0.00%) Active: 401 Started: 401 Finished: 0
+summary =  41925 in 00:02:14 =  311.8/s Avg:   619 Min:    51 Max:  5793 Err:     0 (0.00%)
+summary +  13567 in 00:00:30 =  451.8/s Avg:   610 Min:    51 Max:  4635 Err:     0 (0.00%) Active: 467 Started: 467 Finished: 0
+summary =  55492 in 00:02:45 =  337.3/s Avg:   617 Min:    51 Max:  5793 Err:     0 (0.00%)
+summary +  12359 in 00:00:30 =  412.0/s Avg:   649 Min:    51 Max:  8593 Err:     0 (0.00%) Active: 526 Started: 526 Finished: 0
+summary =  67851 in 00:03:15 =  348.8/s Avg:   622 Min:    51 Max:  8593 Err:     0 (0.00%)
+summary +  11942 in 00:00:30 =  399.3/s Avg:   680 Min:    51 Max:  7292 Err:     0 (0.00%) Active: 598 Started: 598 Finished: 0
+summary =  79793 in 00:03:44 =  355.6/s Avg:   631 Min:    51 Max:  8593 Err:     0 (0.00%)
+summary +  11043 in 00:00:30 =  367.0/s Avg:   711 Min:    51 Max:  5394 Err:     0 (0.00%) Active: 665 Started: 665 Finished: 0
+summary =  90836 in 00:04:14 =  356.9/s Avg:   641 Min:    51 Max:  8593 Err:     0 (0.00%)
+summary +  12030 in 00:00:30 =  402.2/s Avg:   666 Min:    51 Max:  3431 Err:     0 (0.00%) Active: 731 Started: 731 Finished: 0
+summary = 102866 in 00:04:44 =  361.7/s Avg:   644 Min:    51 Max:  8593 Err:     0 (0.00%)
+summary +  11639 in 00:00:30 =  386.3/s Avg:   681 Min:    51 Max:  6304 Err:     0 (0.00%) Active: 787 Started: 787 Finished: 0
+summary = 114505 in 00:05:15 =  364.0/s Avg:   647 Min:    51 Max:  8593 Err:     0 (0.00%)
+summary +  10477 in 00:00:30 =  349.6/s Avg:   691 Min:    51 Max:  6996 Err:     0 (0.00%) Active: 914 Started: 914 Finished: 0
+summary = 124982 in 00:05:45 =  362.8/s Avg:   651 Min:    51 Max:  8593 Err:     0 (0.00%)

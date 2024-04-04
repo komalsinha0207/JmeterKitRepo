@@ -1,0 +1,150 @@
+2024-04-04 05:03:02,848 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+Apr 04, 2024 5:03:02 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-04 05:03:02,848 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-04-04 05:03:03,252 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-28c406d3c9e9988b39fb479f9848e199-nongui
+2024-04-04 05:03:03,252 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-28c406d3c9e9988b39fb479f9848e199-nongui
+2024-04-04 05:03:09,350 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-04 05:03:09,350 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-04 05:03:09,410 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-04 05:03:09,410 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-04 05:03:11,410 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-04 05:03:11,410 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-04 05:03:11,513 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-04 05:03:11,513 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-04 05:03:11,517 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-04 05:03:11,517 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-04 05:03:11,714 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 05:03:11,714 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,812 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:03:11,813 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 05:03:11,813 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 05:03:11,813 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 05:03:11,813 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 05:03:12,310 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 05:03:12,310 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 05:03:12,311 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 05:03:12,311 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 05:03:12,311 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 05:03:12,311 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 05:03:12,311 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 05:03:12,311 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 05:03:12,410 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-04 05:03:12,410 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-04 05:03:12,410 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-04 05:03:12,410 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-04 05:03:14,270 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-04 05:03:14,270 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-04 05:03:14,311 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-04 05:03:14,311 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-04 05:03:14,345 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+2024-04-04 05:03:14,345 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+2024-04-04 05:03:14,746 Thread-2 WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
+I> No access restrictor found, access to any MBean is allowed
+Couldn't start agent for process matching "JMeter" (PID: 207)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+2024-04-04 05:03:25,850 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-04-04 05:03:26,051 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-04-04 05:03:26,051 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-04-04 05:03:26,051 INFO o.a.j.JMeter: Setting System property: server_port=1099
+2024-04-04 05:03:26,052 INFO o.a.j.JMeter: Setting System property: server.rmi.localport=50000
+2024-04-04 05:03:26,052 INFO o.a.j.JMeter: Setting System property: server_port=1099
+2024-04-04 05:03:26,052 INFO o.a.j.JMeter: Setting JMeter property: server.rmi.ssl.disable=true
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: Version 5.4.1
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: java.version=16.0.2
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: os.name=Linux
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: os.arch=amd64
+2024-04-04 05:03:26,148 INFO o.a.j.JMeter: os.version=6.5.0-1016-aws
+2024-04-04 05:03:26,149 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-04-04 05:03:26,149 INFO o.a.j.JMeter: java.awt.headless=true
+2024-04-04 05:03:26,149 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-04-04 05:03:26,149 INFO o.a.j.JMeter: Available Processors =1
+2024-04-04 05:03:26,158 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-04-04 05:03:26,159 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-04-04 05:03:26,244 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter/apache-jmeter-5.4.1
+2024-04-04 05:03:26,245 INFO o.a.j.JMeter: user.dir  =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-04-04 05:03:26,245 INFO o.a.j.JMeter: PWD       =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-04-04 05:03:26,245 INFO o.a.j.JMeter: IP: 10.35.0.13 Name: jmeter-slaves04-04-10-32-49-wvzfh FullName: jmeter-slaves04-04-10-32-49-wvzfh
+Using local port: 50000
+2024-04-04 05:03:26,345 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 05:03:26,345 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+Created remote object: UnicastServerRef2 [liveRef: [endpoint:[10.35.0.13:50000](local),objID:[7bbe61c1:18ea77d8a89:-7fff, 991640613057068360]]]
+2024-04-04 05:03:26,555 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2024-04-04 05:03:26,556 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2024-04-04 05:03:26,644 INFO o.a.j.r.RmiUtils: Local IP address=10.35.0.13
+2024-04-04 05:03:26,645 INFO o.a.j.e.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file
+2024-04-04 05:03:26,645 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2024-04-04 05:03:26,645 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 05:03:26,645 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 05:03:26,648 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099
+2024-04-04 05:04:14,010 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-04 05:04:14,015 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-04-04 05:04:14,015 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-04-04 05:04:14,117 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-04-04 05:04:14,117 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-04-04 05:04:14,119 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-04-04 05:04:14,119 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-04-04 05:04:14,122 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 05:04:14,210 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-04-04 05:04:14,210 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-04-04 05:04:14,212 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-04-04 05:04:14,212 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-04-04 05:04:14,312 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:04:14,312 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:04:14,313 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:04:14,313 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:04:14,313 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 05:04:14,313 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 05:04:14,511 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-04-04 05:04:14,511 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-04-04 05:04:14,522 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 10.35.0.13 base '.'
+2024-04-04 05:04:14,523 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 10.35.0.12
+2024-04-04 05:04:14,526 INFO o.a.j.s.FileServer: Default base='/opt/jmeter/apache-jmeter-5.4.1/bin'
+2024-04-04 05:04:14,545 INFO o.a.j.s.FileServer: Set new base='.'
+2024-04-04 05:04:14,548 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2024-04-04 05:04:14,610 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+Starting the test on host 10.35.0.13 @ Thu Apr 04 05:04:14 UTC 2024 (1712207054610)
+2024-04-04 05:04:14,611 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-04 05:04:14,611 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-04 05:04:14,616 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-04-04 05:04:14,616 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-04-04 05:04:18,448 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Http URL/API Test
+2024-04-04 05:04:18,448 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Http URL/API Test.
+2024-04-04 05:04:18,448 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-04 05:04:18,449 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2024-04-04 05:04:18,516 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 05:04:18,516 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 05:04:18,517 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 05:04:18,517 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 05:04:18,545 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-1
+2024-04-04 05:04:18,610 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-2
+2024-04-04 05:04:18,680 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-3
+2024-04-04 05:04:18,744 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-slaves04-04-10-32-49-wvzfh
+2024-04-04 05:04:18,750 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-04-04 05:04:18,810 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-04-04 05:04:18,810 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-04 05:04:18,816 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-4
+2024-04-04 05:04:18,853 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-5
+2024-04-04 05:04:18,951 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-6
+2024-04-04 05:04:19,149 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-7
+2024-04-04 05:04:19,210 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-8
+2024-04-04 05:04:19,310 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-9
+2024-04-04 05:04:19,444 INFO o.a.j.t.JMeterThread: Thread started: 10.35.0.13-Http URL/API Test 1-10
+2024-04-04 05:04:19,575 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-04-04 05:04:19,581 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-04-04 05:04:19,581 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-04-04 05:04:20,250 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-04-04 05:04:20,253 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-04-04 05:04:20,253 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore

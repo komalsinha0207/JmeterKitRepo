@@ -1,0 +1,32 @@
+Installing needed plugins for master
+Apr 03, 2024 8:45:12 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-03 08:45:12,223 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-04-03 08:45:12,619 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-060a243a517f1b36f561d46e0a339349-nongui
+2024-04-03 08:45:19,026 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-03 08:45:19,116 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-03 08:45:21,023 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-03 08:45:21,124 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-03 08:45:21,217 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-03 08:45:21,328 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-03 08:45:21,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 08:45:21,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 08:45:21,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 08:45:21,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 08:45:21,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-03 08:45:21,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-03 08:45:21,834 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-03 08:45:21,835 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-03 08:45:21,835 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-03 08:45:21,916 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-03 08:45:22,017 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-03 08:45:22,017 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-03 08:45:23,843 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-03 08:45:23,898 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-03 08:45:23,916 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Done installing plugins, launching test
+Couldn't start agent for process matching "JMeter" (PID: 164)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+Starting load test at : Wed Apr  3 08:45:05 UTC 2024
+I> No access restrictor found, access to any MBean is allowed

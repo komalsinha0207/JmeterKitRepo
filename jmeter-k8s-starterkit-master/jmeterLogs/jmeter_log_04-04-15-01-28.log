@@ -1,0 +1,246 @@
+2024-04-04 09:32:39,842 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-04-04 09:32:40,088 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-04-04 09:32:40,088 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-04-04 09:32:40,089 INFO o.a.j.JMeter: Setting System property: server.rmi.ssl.disable=true
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: Version 5.4.1
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: java.version=16.0.2
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: os.name=Linux
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: os.arch=amd64
+2024-04-04 09:32:40,187 INFO o.a.j.JMeter: os.version=6.5.0-1016-aws
+2024-04-04 09:32:40,188 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-04-04 09:32:40,188 INFO o.a.j.JMeter: java.awt.headless=null
+2024-04-04 09:32:40,188 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-04-04 09:32:40,188 INFO o.a.j.JMeter: Available Processors =1
+2024-04-04 09:32:40,285 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-04-04 09:32:40,286 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-04-04 09:32:40,286 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter/apache-jmeter-5.4.1
+2024-04-04 09:32:40,286 INFO o.a.j.JMeter: user.dir  =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-04-04 09:32:40,286 INFO o.a.j.JMeter: PWD       =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-04-04 09:32:40,287 INFO o.a.j.JMeter: IP: 10.35.0.12 Name: jmeter-master04-04-15-01-28-h8vtb FullName: jmeter-master04-04-15-01-28-h8vtb
+2024-04-04 09:32:40,290 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136'
+2024-04-04 09:32:40,293 INFO o.a.j.s.FileServer: Default base='/opt/jmeter/apache-jmeter-5.4.1/bin'
+2024-04-04 09:32:40,294 INFO o.a.j.s.FileServer: Set new base='/opt/jmeter/apache-jmeter-5.4.1/bin'
+2024-04-04 09:32:41,734 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-04 09:32:41,985 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-04 09:32:41,989 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-04 09:32:41,992 INFO o.a.j.s.SaveService: Loading file: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-04 09:32:42,334 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 09:32:42,487 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 09:32:42,487 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 09:32:42,488 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 09:32:42,488 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 09:32:42,488 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 09:32:42,488 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 09:32:42,897 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 09:32:42,897 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 09:32:42,897 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 09:32:42,897 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 09:32:43,091 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-04-04 09:32:43,132 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2024-04-04 09:32:43,133 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /report/PetStoreAPIScriptDynamicBuildNumber1.jmx_2024-04-04_093136.jtl
+2024-04-04 09:32:43,133 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/apache-jmeter-5.4.1/bin/reportgenerator.properties
+2024-04-04 09:32:43,133 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2024-04-04 09:32:43,188 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2024-04-04 09:32:43,191 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2024-04-04 09:32:43,191 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2024-04-04 09:32:43,192 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2024-04-04 09:32:43,192 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2024-04-04 09:32:43,192 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2024-04-04 09:32:43,192 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2024-04-04 09:32:43,192 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2024-04-04 09:32:43,193 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2024-04-04 09:32:43,197 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,197 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,197 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,197 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,197 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,198 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,198 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,198 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,198 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,198 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-04-04 09:32:43,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2024-04-04 09:32:43,286 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2024-04-04 09:32:43,286 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2024-04-04 09:32:43,286 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2024-04-04 09:32:43,287 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2024-04-04 09:32:43,287 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2024-04-04 09:32:43,291 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 10.35.0.13
+2024-04-04 09:32:43,293 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:43,786 INFO o.a.j.e.DistributedRunner: Starting distributed test with remote engines: [10.35.0.13] @ Thu Apr 04 09:32:43 UTC 2024 (1712223163786)
+2024-04-04 09:32:43,787 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2024-04-04 09:32:43,792 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-04-04 09:32:43,792 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-04-04 09:32:44,193 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:44,193 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:44,196 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-04 09:32:44,288 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-04-04 09:32:44,288 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-04-04 09:32:44,289 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:44,290 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,086 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,087 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,088 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,088 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,088 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-04-04 09:32:48,088 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-04-04 09:32:48,088 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,088 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,088 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-04-04 09:32:48,089 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-04-04 09:32:48,089 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,089 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,089 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-04-04 09:32:48,089 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-04-04 09:32:48,089 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,089 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,090 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-04-04 09:32:48,090 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-04-04 09:32:48,090 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,090 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-04 09:32:48,090 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-04-04 09:32:48,090 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-04-04 09:32:48,862 INFO o.a.j.e.ClientJMeterEngine: sent test to 10.35.0.13 basedir='.'
+2024-04-04 09:32:48,863 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2024-04-04 09:32:48,866 INFO o.a.j.e.ClientJMeterEngine: sent run command to 10.35.0.13
+2024-04-04 09:32:48,866 INFO o.a.j.e.DistributedRunner: Remote engines have been started:[10.35.0.13]
+2024-04-04 09:32:49,567 INFO o.a.j.v.b.BackendListener: Backend Listener 1: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-04-04 09:32:49,568 INFO o.a.j.v.b.BackendListener: Backend Listener 1: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-04-04 09:32:51,446 INFO o.a.j.v.b.BackendListener: Backend Listener 2: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2024-04-04 09:32:51,531 INFO o.a.j.v.b.BackendListener: Backend Listener 2: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2024-04-04 09:32:52,348 INFO o.a.j.JMeter: Started remote host:  10.35.0.13 (1712223172348)
+2024-04-04 09:33:00,190 INFO o.a.j.r.Summariser: summary +      2 in 00:00:08 =    0.3/s Avg:  4388 Min:  4388 Max:  4389 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:33:30,433 INFO o.a.j.r.Summariser: summary +   1479 in 00:00:30 =   48.7/s Avg:   226 Min:   191 Max:  4491 Err:   213 (14.40%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:33:30,433 INFO o.a.j.r.Summariser: summary =   1481 in 00:00:38 =   38.9/s Avg:   232 Min:   191 Max:  4491 Err:   213 (14.38%)
+2024-04-04 09:34:00,450 INFO o.a.j.r.Summariser: summary +   1400 in 00:00:30 =   46.6/s Avg:   212 Min:   191 Max:  1479 Err:   178 (12.71%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:34:00,450 INFO o.a.j.r.Summariser: summary =   2881 in 00:01:08 =   42.3/s Avg:   222 Min:   191 Max:  4491 Err:   391 (13.57%)
+2024-04-04 09:34:31,093 INFO o.a.j.r.Summariser: summary +   1478 in 00:00:31 =   48.2/s Avg:   206 Min:   190 Max:   281 Err:   217 (14.68%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:34:31,094 INFO o.a.j.r.Summariser: summary =   4359 in 00:01:39 =   44.1/s Avg:   217 Min:   190 Max:  4491 Err:   608 (13.95%)
+2024-04-04 09:35:01,231 INFO o.a.j.r.Summariser: summary +   1399 in 00:00:30 =   46.4/s Avg:   214 Min:   190 Max:  1305 Err:   197 (14.08%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:35:01,231 INFO o.a.j.r.Summariser: summary =   5758 in 00:02:09 =   44.7/s Avg:   216 Min:   190 Max:  4491 Err:   805 (13.98%)
+2024-04-04 09:35:30,714 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:29 =   47.5/s Avg:   210 Min:   191 Max:   292 Err:   191 (13.63%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:35:30,714 INFO o.a.j.r.Summariser: summary =   7159 in 00:02:38 =   45.2/s Avg:   215 Min:   190 Max:  4491 Err:   996 (13.91%)
+2024-04-04 09:36:00,667 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:30 =   46.8/s Avg:   212 Min:   191 Max:   807 Err:   193 (13.78%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:36:00,668 INFO o.a.j.r.Summariser: summary =   8560 in 00:03:08 =   45.5/s Avg:   214 Min:   190 Max:  4491 Err:  1189 (13.89%)
+2024-04-04 09:36:31,300 INFO o.a.j.r.Summariser: summary +   1478 in 00:00:31 =   48.3/s Avg:   207 Min:   191 Max:   418 Err:   212 (14.34%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:36:31,300 INFO o.a.j.r.Summariser: summary =  10038 in 00:03:39 =   45.8/s Avg:   213 Min:   190 Max:  4491 Err:  1401 (13.96%)
+2024-04-04 09:37:00,958 INFO o.a.j.r.Summariser: summary +   1398 in 00:00:30 =   47.1/s Avg:   211 Min:   191 Max:   827 Err:   215 (15.38%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:37:00,960 INFO o.a.j.r.Summariser: summary =  11436 in 00:04:09 =   46.0/s Avg:   213 Min:   190 Max:  4491 Err:  1616 (14.13%)
+2024-04-04 09:37:31,430 INFO o.a.j.r.Summariser: summary +   1479 in 00:00:30 =   48.5/s Avg:   206 Min:   191 Max:   227 Err:   208 (14.06%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:37:31,430 INFO o.a.j.r.Summariser: summary =  12915 in 00:04:39 =   46.3/s Avg:   212 Min:   190 Max:  4491 Err:  1824 (14.12%)
+2024-04-04 09:38:00,860 INFO o.a.j.r.Summariser: summary +   1399 in 00:00:29 =   47.5/s Avg:   209 Min:   191 Max:   747 Err:   201 (14.37%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:38:00,860 INFO o.a.j.r.Summariser: summary =  14314 in 00:05:09 =   46.4/s Avg:   212 Min:   190 Max:  4491 Err:  2025 (14.15%)
+2024-04-04 09:38:31,561 INFO o.a.j.r.Summariser: summary +   1477 in 00:00:31 =   48.1/s Avg:   207 Min:   193 Max:   242 Err:   223 (15.10%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:38:31,561 INFO o.a.j.r.Summariser: summary =  15791 in 00:05:39 =   46.6/s Avg:   211 Min:   190 Max:  4491 Err:  2248 (14.24%)
+2024-04-04 09:39:00,916 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:29 =   47.7/s Avg:   209 Min:   191 Max:   727 Err:   220 (15.70%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:39:00,916 INFO o.a.j.r.Summariser: summary =  17192 in 00:06:09 =   46.6/s Avg:   211 Min:   190 Max:  4491 Err:  2468 (14.36%)
+2024-04-04 09:39:30,913 INFO o.a.j.r.Summariser: summary +   1478 in 00:00:30 =   49.3/s Avg:   202 Min:   191 Max:   222 Err:   191 (12.92%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:39:30,914 INFO o.a.j.r.Summariser: summary =  18670 in 00:06:39 =   46.8/s Avg:   210 Min:   190 Max:  4491 Err:  2659 (14.24%)
+2024-04-04 09:40:00,122 INFO o.a.j.r.Summariser: summary +   1400 in 00:00:29 =   47.9/s Avg:   208 Min:   190 Max:  1011 Err:   213 (15.21%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:40:00,122 INFO o.a.j.r.Summariser: summary =  20070 in 00:07:08 =   46.9/s Avg:   210 Min:   190 Max:  4491 Err:  2872 (14.31%)
+2024-04-04 09:40:30,353 INFO o.a.j.r.Summariser: summary +   1477 in 00:00:30 =   48.9/s Avg:   204 Min:   190 Max:   223 Err:   223 (15.10%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:40:30,354 INFO o.a.j.r.Summariser: summary =  21547 in 00:07:38 =   47.0/s Avg:   210 Min:   190 Max:  4491 Err:  3095 (14.36%)
+2024-04-04 09:41:01,345 INFO o.a.j.r.Summariser: summary +   1479 in 00:00:31 =   47.7/s Avg:   209 Min:   190 Max:  1007 Err:   189 (12.78%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:41:01,345 INFO o.a.j.r.Summariser: summary =  23026 in 00:08:09 =   47.1/s Avg:   210 Min:   190 Max:  4491 Err:  3284 (14.26%)
+2024-04-04 09:41:30,263 INFO o.a.j.r.Summariser: summary +   1400 in 00:00:29 =   48.4/s Avg:   206 Min:   193 Max:   230 Err:   201 (14.36%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:41:30,263 INFO o.a.j.r.Summariser: summary =  24426 in 00:08:38 =   47.2/s Avg:   210 Min:   190 Max:  4491 Err:  3485 (14.27%)
+2024-04-04 09:42:00,076 INFO o.a.j.r.Summariser: summary +   1400 in 00:00:30 =   47.0/s Avg:   211 Min:   190 Max:  1113 Err:   199 (14.21%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:42:00,076 INFO o.a.j.r.Summariser: summary =  25826 in 00:09:08 =   47.2/s Avg:   210 Min:   190 Max:  4491 Err:  3684 (14.26%)
+2024-04-04 09:42:30,603 INFO o.a.j.r.Summariser: summary +   1476 in 00:00:31 =   48.4/s Avg:   206 Min:   190 Max:   226 Err:   214 (14.50%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:42:30,603 INFO o.a.j.r.Summariser: summary =  27302 in 00:09:38 =   47.2/s Avg:   209 Min:   190 Max:  4491 Err:  3898 (14.28%)
+2024-04-04 09:43:01,452 INFO o.a.j.r.Summariser: summary +   1480 in 00:00:31 =   48.0/s Avg:   208 Min:   190 Max:   662 Err:   195 (13.18%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:43:01,452 INFO o.a.j.r.Summariser: summary =  28782 in 00:10:09 =   47.3/s Avg:   209 Min:   190 Max:  4491 Err:  4093 (14.22%)
+2024-04-04 09:43:30,132 INFO o.a.j.r.Summariser: summary +   1399 in 00:00:29 =   48.8/s Avg:   204 Min:   190 Max:   226 Err:   208 (14.87%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:43:30,132 INFO o.a.j.r.Summariser: summary =  30181 in 00:10:38 =   47.3/s Avg:   209 Min:   190 Max:  4491 Err:  4301 (14.25%)
+2024-04-04 09:44:01,109 INFO o.a.j.r.Summariser: summary +   1479 in 00:00:31 =   47.7/s Avg:   209 Min:   190 Max:   936 Err:   211 (14.27%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:44:01,109 INFO o.a.j.r.Summariser: summary =  31660 in 00:11:09 =   47.3/s Avg:   209 Min:   190 Max:  4491 Err:  4512 (14.25%)
+2024-04-04 09:44:31,653 INFO o.a.j.r.Summariser: summary +   1476 in 00:00:31 =   48.3/s Avg:   206 Min:   191 Max:   222 Err:   216 (14.63%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:44:31,653 INFO o.a.j.r.Summariser: summary =  33136 in 00:11:39 =   47.4/s Avg:   209 Min:   190 Max:  4491 Err:  4728 (14.27%)
+2024-04-04 09:45:00,916 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:29 =   47.9/s Avg:   208 Min:   191 Max:   661 Err:   213 (15.20%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:45:00,916 INFO o.a.j.r.Summariser: summary =  34537 in 00:12:09 =   47.4/s Avg:   209 Min:   190 Max:  4491 Err:  4941 (14.31%)
+2024-04-04 09:45:31,181 INFO o.a.j.r.Summariser: summary +   1478 in 00:00:30 =   48.8/s Avg:   204 Min:   191 Max:   272 Err:   230 (15.56%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:45:31,182 INFO o.a.j.r.Summariser: summary =  36015 in 00:12:39 =   47.5/s Avg:   209 Min:   190 Max:  4491 Err:  5171 (14.36%)
+2024-04-04 09:46:00,368 INFO o.a.j.r.Summariser: summary +   1166 in 00:00:29 =   39.9/s Avg:   204 Min:   191 Max:   285 Err:   175 (15.01%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:46:00,368 INFO o.a.j.r.Summariser: summary =  37181 in 00:13:08 =   47.2/s Avg:   209 Min:   190 Max:  4491 Err:  5346 (14.38%)
+2024-04-04 09:46:30,380 INFO o.a.j.r.Summariser: summary +   1478 in 00:00:30 =   49.2/s Avg:   238 Min:   190 Max:  5914 Err:   186 (12.58%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:46:30,380 INFO o.a.j.r.Summariser: summary =  38659 in 00:13:38 =   47.3/s Avg:   210 Min:   190 Max:  5914 Err:  5532 (14.31%)
+2024-04-04 09:47:01,166 INFO o.a.j.r.Summariser: summary +   1477 in 00:00:31 =   48.0/s Avg:   207 Min:   190 Max:   869 Err:   195 (13.20%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:47:01,166 INFO o.a.j.r.Summariser: summary =  40136 in 00:14:09 =   47.3/s Avg:   210 Min:   190 Max:  5914 Err:  5727 (14.27%)
+2024-04-04 09:47:31,564 INFO o.a.j.r.Summariser: summary +   1480 in 00:00:30 =   48.7/s Avg:   205 Min:   191 Max:   221 Err:   195 (13.18%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:47:31,564 INFO o.a.j.r.Summariser: summary =  41616 in 00:14:39 =   47.3/s Avg:   209 Min:   190 Max:  5914 Err:  5922 (14.23%)
+2024-04-04 09:48:00,960 INFO o.a.j.r.Summariser: summary +   1399 in 00:00:29 =   47.6/s Avg:   209 Min:   191 Max:   881 Err:   216 (15.44%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:48:00,960 INFO o.a.j.r.Summariser: summary =  43015 in 00:15:09 =   47.3/s Avg:   209 Min:   190 Max:  5914 Err:  6138 (14.27%)
+2024-04-04 09:48:31,257 INFO o.a.j.r.Summariser: summary +   1476 in 00:00:30 =   48.7/s Avg:   204 Min:   192 Max:   226 Err:   202 (13.69%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:48:31,258 INFO o.a.j.r.Summariser: summary =  44491 in 00:15:39 =   47.4/s Avg:   209 Min:   190 Max:  5914 Err:  6340 (14.25%)
+2024-04-04 09:49:00,538 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:29 =   47.9/s Avg:   208 Min:   190 Max:   661 Err:   188 (13.42%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:49:00,539 INFO o.a.j.r.Summariser: summary =  45892 in 00:16:08 =   47.4/s Avg:   209 Min:   190 Max:  5914 Err:  6528 (14.22%)
+2024-04-04 09:49:31,022 INFO o.a.j.r.Summariser: summary +   1477 in 00:00:30 =   48.4/s Avg:   206 Min:   190 Max:   223 Err:   192 (13.00%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:49:31,022 INFO o.a.j.r.Summariser: summary =  47369 in 00:16:39 =   47.4/s Avg:   209 Min:   190 Max:  5914 Err:  6720 (14.19%)
+2024-04-04 09:50:00,290 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:29 =   47.9/s Avg:   208 Min:   190 Max:   662 Err:   180 (12.85%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:50:00,290 INFO o.a.j.r.Summariser: summary =  48770 in 00:17:08 =   47.4/s Avg:   209 Min:   190 Max:  5914 Err:  6900 (14.15%)
+2024-04-04 09:50:30,557 INFO o.a.j.r.Summariser: summary +   1477 in 00:00:30 =   48.8/s Avg:   204 Min:   190 Max:   228 Err:   215 (14.56%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:50:30,558 INFO o.a.j.r.Summariser: summary =  50247 in 00:17:38 =   47.5/s Avg:   209 Min:   190 Max:  5914 Err:  7115 (14.16%)
+2024-04-04 09:51:01,553 INFO o.a.j.r.Summariser: summary +   1478 in 00:00:31 =   47.7/s Avg:   209 Min:   190 Max:   883 Err:   205 (13.87%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:51:01,554 INFO o.a.j.r.Summariser: summary =  51725 in 00:18:09 =   47.5/s Avg:   209 Min:   190 Max:  5914 Err:  7320 (14.15%)
+2024-04-04 09:51:30,821 INFO o.a.j.r.Summariser: summary +   1400 in 00:00:29 =   47.8/s Avg:   208 Min:   191 Max:   233 Err:   209 (14.93%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:51:30,821 INFO o.a.j.r.Summariser: summary =  53125 in 00:18:38 =   47.5/s Avg:   209 Min:   190 Max:  5914 Err:  7529 (14.17%)
+2024-04-04 09:52:00,559 INFO o.a.j.r.Summariser: summary +   1402 in 00:00:30 =   47.1/s Avg:   212 Min:   190 Max:   886 Err:   231 (16.48%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:52:00,560 INFO o.a.j.r.Summariser: summary =  54527 in 00:19:08 =   47.5/s Avg:   209 Min:   190 Max:  5914 Err:  7760 (14.23%)
+2024-04-04 09:52:30,385 INFO o.a.j.r.Summariser: summary +   1477 in 00:00:30 =   49.5/s Avg:   201 Min:   190 Max:   225 Err:   219 (14.83%) Active: 10 Started: 10 Finished: 0
+2024-04-04 09:52:30,386 INFO o.a.j.r.Summariser: summary =  56004 in 00:19:38 =   47.5/s Avg:   209 Min:   190 Max:  5914 Err:  7979 (14.25%)
+2024-04-04 09:52:52,930 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-04-04 09:52:52,931 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-04-04 09:52:52,932 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-04-04 09:52:52,942 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-04-04 09:52:52,942 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2024-04-04 09:52:52,948 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2024-04-04 09:52:52,951 INFO o.a.j.r.Summariser: summary +   1187 in 00:00:23 =   52.6/s Avg:   201 Min:   190 Max:   225 Err:   172 (14.49%) Active: 0 Started: 10 Finished: 10
+2024-04-04 09:52:52,951 INFO o.a.j.r.Summariser: summary =  57191 in 00:20:01 =   47.6/s Avg:   209 Min:   190 Max:  5914 Err:  8151 (14.25%)
+2024-04-04 09:52:52,951 INFO o.a.j.JMeter: Finished remote host: 10.35.0.13 (1712224372951)
+2024-04-04 09:52:52,952 INFO o.a.j.JMeter: All remote engines have ended test, starting RemoteTestStopper thread
+2024-04-04 09:52:52,953 INFO o.a.j.e.ClientJMeterEngine: about to exit remote server on 10.35.0.13
+2024-04-04 09:52:58,174 INFO o.a.j.JMeter: Interrupting RMI Reaper
+2024-04-04 09:52:58,175 INFO o.a.j.JMeter: Generating Dashboard
+2024-04-04 09:52:58,175 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2024-04-04 09:52:58,287 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2024-04-04 09:53:11,136 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2024-04-04 09:53:11,137 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2024-04-04 09:53:11,138 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2024-04-04 09:53:11,138 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2024-04-04 09:53:11,144 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2024-04-04 09:53:11,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2024-04-04 09:53:11,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2024-04-04 09:53:11,188 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2024-04-04 09:53:13,994 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2024-04-04 09:53:14,033 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2024-04-04 09:53:14,033 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2024-04-04 09:53:14,033 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2024-04-04 09:53:15,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2024-04-04 09:53:15,932 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 400337 samples
+2024-04-04 09:53:15,932 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2024-04-04 09:53:15,932 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2024-04-04 09:53:15,933 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2024-04-04 09:53:15,933 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2024-04-04 09:53:15,933 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2024-04-04 09:53:15,934 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2024-04-04 09:53:15,938 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2024-04-04 09:53:15,941 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2024-04-04 09:53:15,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2024-04-04 09:53:15,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2024-04-04 09:53:15,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 1102980 samples
+2024-04-04 09:53:15,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 220596 samples
+2024-04-04 09:53:15,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 73532 samples
+2024-04-04 09:53:15,943 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 73532 samples produced in 17s 551 ms on channel 0
+2024-04-04 09:53:15,943 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2024-04-04 09:53:16,942 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2024-04-04 09:53:16,942 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2024-04-04 09:53:16,942 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2024-04-04 09:53:16,943 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2024-04-04 09:53:16,943 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136/statistics.json
+2024-04-04 09:53:17,338 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2024-04-04 09:53:17,340 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136
+2024-04-04 09:53:18,239 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136, creating folder structure
+2024-04-04 09:53:18,242 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/jmeter/apache-jmeter-5.4.1/bin/report-template' to '/report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136', got message: /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136, found non empty folder with following content [/report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-04-04_093136/statistics.json], will be ignored
+2024-04-04 09:53:20,142 INFO o.a.j.JMeter: Dashboard generated

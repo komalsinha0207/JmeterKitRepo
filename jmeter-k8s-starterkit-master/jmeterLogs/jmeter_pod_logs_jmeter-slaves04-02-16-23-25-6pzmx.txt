@@ -1,0 +1,90 @@
+2024-04-02 10:53:41,735 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+Apr 02, 2024 10:53:41 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-02 10:53:41,735 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-04-02 10:53:42,238 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-3c346ede9b9ac2db56d425784be2c382-nongui
+2024-04-02 10:53:42,238 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-3c346ede9b9ac2db56d425784be2c382-nongui
+2024-04-02 10:53:48,840 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-02 10:53:48,840 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-02 10:53:48,842 INFO o.j.r.PluginManagerCMD: Params line is: wiremock.jmx
+2024-04-02 10:53:48,842 INFO o.j.r.PluginManagerCMD: Params line is: wiremock.jmx
+2024-04-02 10:53:50,854 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-02 10:53:50,854 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-02 10:53:51,041 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-02 10:53:51,041 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-02 10:53:51,045 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-02 10:53:51,045 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-02 10:53:51,248 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-02 10:53:51,248 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-02 10:53:51,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-02 10:53:51,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-02 10:53:51,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-02 10:53:51,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-02 10:53:51,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-02 10:53:51,786 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-02 10:53:51,786 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-02 10:53:51,787 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-02 10:53:51,787 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-02 10:53:51,787 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-02 10:53:51,787 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-02 10:53:51,787 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-02 10:53:51,787 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-02 10:53:51,843 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-02 10:53:51,843 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-02 10:53:51,844 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-02 10:53:51,844 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-02 10:53:53,520 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-02 10:53:53,520 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-02 10:53:53,523 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-02 10:53:53,523 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-02 10:53:53,536 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+2024-04-02 10:53:53,536 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Couldn't start agent for process matching "JMeter" (PID: 215)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+I> No access restrictor found, access to any MBean is allowed
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+2024-04-02 10:54:05,650 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-04-02 10:54:05,753 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-04-02 10:54:05,835 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-04-02 10:54:05,836 INFO o.a.j.JMeter: Setting System property: server_port=1099
+2024-04-02 10:54:05,836 INFO o.a.j.JMeter: Setting System property: server.rmi.localport=50000
+2024-04-02 10:54:05,837 INFO o.a.j.JMeter: Setting System property: server_port=1099
+2024-04-02 10:54:05,837 INFO o.a.j.JMeter: Setting JMeter property: server.rmi.ssl.disable=true
+2024-04-02 10:54:05,853 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: Version 5.4.1
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: java.version=16.0.2
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: os.name=Linux
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: os.arch=amd64
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: os.version=6.5.0-1016-aws
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: java.awt.headless=true
+2024-04-02 10:54:05,854 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-04-02 10:54:05,855 INFO o.a.j.JMeter: Available Processors =1
+2024-04-02 10:54:06,036 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-04-02 10:54:06,037 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-04-02 10:54:06,037 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter/apache-jmeter-5.4.1
+2024-04-02 10:54:06,037 INFO o.a.j.JMeter: user.dir  =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-04-02 10:54:06,037 INFO o.a.j.JMeter: PWD       =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-04-02 10:54:06,038 INFO o.a.j.JMeter: IP: 10.35.0.13 Name: jmeter-slaves04-02-16-23-25-6pzmx FullName: jmeter-slaves04-02-16-23-25-6pzmx
+Using local port: 50000
+2024-04-02 10:54:06,054 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-02 10:54:06,054 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+Created remote object: UnicastServerRef2 [liveRef: [endpoint:[10.35.0.13:50000](local),objID:[49abd203:18e9e71dce7:-7fff, -2601743527113756304]]]
+2024-04-02 10:54:06,437 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2024-04-02 10:54:06,438 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2024-04-02 10:54:06,438 INFO o.a.j.r.RmiUtils: Local IP address=10.35.0.13
+2024-04-02 10:54:06,438 INFO o.a.j.e.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file
+2024-04-02 10:54:06,438 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2024-04-02 10:54:06,438 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-02 10:54:06,438 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-04-02 10:54:06,441 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099

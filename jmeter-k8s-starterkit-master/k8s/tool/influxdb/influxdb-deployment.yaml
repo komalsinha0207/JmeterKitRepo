@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: influxdb
+  namespace: default
+  labels:
+    app: influxdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: influxdb
+  template:
+    metadata:
+      labels:
+        app: influxdb
+    spec:
+      containers:
+        - name: influxdb
+          image: docker.io/influxdb:1.8
+          envFrom:
+            - secretRef:
+                name: influxdb-creds
+          resources:
+            limits:
+              cpu: "512m"
+              memory: "1024Mi"
+            requests:
+              cpu: "512m"
+              memory: "1024Mi"
+          volumeMounts:
+            - mountPath: /etc/influxdb
+              name: influxdb-config
+              readOnly: true
+            - mountPath: /data/influxdb/data
+              name: influxdb-data-dir
+
+      volumes:
+        - name: influxdb-config
+          configMap:
+            name: influxdb-config
+        - name: influxdb-data-dir
+          persistentVolumeClaim:
+            claimName: influxdb-config-pvc
+        
+      
+

@@ -1,0 +1,133 @@
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 not ready
+Waiting for slave readiness
+10.35.0.14 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Apr 03, 2024 9:53:47 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-03 09:53:47,509 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-04-03 09:53:47,921 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-b4afeb307c7cd22a0d0673e66443c55e-nongui
+2024-04-03 09:53:54,008 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-03 09:53:54,010 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-03 09:53:56,110 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-03 09:53:56,265 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-03 09:53:56,269 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-03 09:53:56,469 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-03 09:53:56,574 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 09:53:56,574 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 09:53:56,574 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 09:53:56,574 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-03 09:53:56,575 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-03 09:53:56,575 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-03 09:53:57,077 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-03 09:53:57,077 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-03 09:53:57,077 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-03 09:53:57,077 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-03 09:53:57,170 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-03 09:53:57,171 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-03 09:53:58,965 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-03 09:53:58,967 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-03 09:53:58,970 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+2024-04-03 09:53:59,065 INFO o.j.r.PluginManager: JAR Modifications log will be saved into: /tmp/jpgc-cleaner-4102310587810627427.log
+Done installing plugins, launching test
+I> No access restrictor found, access to any MBean is allowed
+Couldn't start agent for process matching "JMeter" (PID: 452)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+Starting load test at : Wed Apr  3 09:53:09 UTC 2024
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+Creating summariser <summary>
+Created the tree successfully using PetStoreAPIScriptDynamicBuildNumber1.jmx
+Configuring remote engine: 10.35.0.14
+Starting distributed test with remote engines: [10.35.0.14] @ Wed Apr 03 09:54:15 UTC 2024 (1712138055309)
+Remote engines have been started:[10.35.0.14]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:06 =    0.2/s Avg:  4595 Min:  4595 Max:  4595 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary +   1324 in 00:00:30 =   43.8/s Avg:   240 Min:   202 Max:  4612 Err:   174 (13.14%) Active: 10 Started: 10 Finished: 0
+summary =   1325 in 00:00:36 =   36.8/s Avg:   243 Min:   202 Max:  4612 Err:   174 (13.13%)
+summary +   1399 in 00:00:30 =   46.9/s Avg:   212 Min:   191 Max:   862 Err:   161 (11.51%) Active: 10 Started: 10 Finished: 0
+summary =   2724 in 00:01:06 =   41.3/s Avg:   227 Min:   191 Max:  4612 Err:   335 (12.30%)
+summary +   1478 in 00:00:30 =   48.5/s Avg:   204 Min:   190 Max:   286 Err:   165 (11.16%) Active: 10 Started: 10 Finished: 0
+summary =   4202 in 00:01:36 =   43.6/s Avg:   219 Min:   190 Max:  4612 Err:   500 (11.90%)
+summary +   1401 in 00:00:30 =   46.7/s Avg:   213 Min:   191 Max:  1098 Err:   231 (16.49%) Active: 10 Started: 10 Finished: 0
+summary =   5603 in 00:02:06 =   44.4/s Avg:   217 Min:   190 Max:  4612 Err:   731 (13.05%)
+summary +   1477 in 00:00:30 =   48.6/s Avg:   205 Min:   191 Max:   285 Err:   205 (13.88%) Active: 10 Started: 10 Finished: 0
+summary =   7080 in 00:02:37 =   45.2/s Avg:   215 Min:   190 Max:  4612 Err:   936 (13.22%)
+summary +   1401 in 00:00:29 =   47.5/s Avg:   209 Min:   191 Max:  1082 Err:   176 (12.56%) Active: 10 Started: 10 Finished: 0
+summary =   8481 in 00:03:06 =   45.5/s Avg:   214 Min:   190 Max:  4612 Err:  1112 (13.11%)
+summary +   1478 in 00:00:31 =   48.3/s Avg:   206 Min:   192 Max:   276 Err:   203 (13.73%) Active: 10 Started: 10 Finished: 0
+summary =   9959 in 00:03:37 =   45.9/s Avg:   213 Min:   190 Max:  4612 Err:  1315 (13.20%)
+summary +   1401 in 00:00:29 =   47.8/s Avg:   208 Min:   189 Max:   748 Err:   199 (14.20%) Active: 10 Started: 10 Finished: 0
+summary =  11360 in 00:04:06 =   46.2/s Avg:   212 Min:   189 Max:  4612 Err:  1514 (13.33%)
+summary +   1476 in 00:00:30 =   49.0/s Avg:   203 Min:   188 Max:   241 Err:   205 (13.89%) Active: 10 Started: 10 Finished: 0
+summary =  12836 in 00:04:36 =   46.5/s Avg:   211 Min:   188 Max:  4612 Err:  1719 (13.39%)
+summary +   1479 in 00:00:30 =   48.5/s Avg:   206 Min:   188 Max:   699 Err:   234 (15.82%) Active: 10 Started: 10 Finished: 0
+summary =  14315 in 00:05:07 =   46.7/s Avg:   210 Min:   188 Max:  4612 Err:  1953 (13.64%)
+summary +   1399 in 00:00:29 =   48.1/s Avg:   206 Min:   188 Max:  3450 Err:   201 (14.37%) Active: 10 Started: 10 Finished: 0
+summary =  15714 in 00:05:36 =   46.8/s Avg:   210 Min:   188 Max:  4612 Err:  2154 (13.71%)
+summary +   1478 in 00:00:30 =   48.8/s Avg:   204 Min:   188 Max:   737 Err:   228 (15.43%) Active: 10 Started: 10 Finished: 0
+summary =  17192 in 00:06:06 =   47.0/s Avg:   210 Min:   188 Max:  4612 Err:  2382 (13.86%)
+summary +   1399 in 00:00:29 =   47.8/s Avg:   208 Min:   188 Max:   226 Err:   192 (13.72%) Active: 10 Started: 10 Finished: 0
+summary =  18591 in 00:06:35 =   47.0/s Avg:   209 Min:   188 Max:  4612 Err:  2574 (13.85%)
+summary +   1477 in 00:00:31 =   47.6/s Avg:   210 Min:   188 Max:   633 Err:   213 (14.42%) Active: 10 Started: 10 Finished: 0
+summary =  20068 in 00:07:06 =   47.1/s Avg:   209 Min:   188 Max:  4612 Err:  2787 (13.89%)
+summary +   1479 in 00:00:29 =   50.2/s Avg:   198 Min:   188 Max:   212 Err:   230 (15.55%) Active: 10 Started: 10 Finished: 0
+summary =  21547 in 00:07:36 =   47.3/s Avg:   209 Min:   188 Max:  4612 Err:  3017 (14.00%)
+summary +   1478 in 00:00:30 =   49.2/s Avg:   202 Min:   188 Max:   694 Err:   227 (15.36%) Active: 10 Started: 10 Finished: 0
+summary =  23025 in 00:08:06 =   47.4/s Avg:   208 Min:   188 Max:  4612 Err:  3244 (14.09%)
+summary +   1479 in 00:00:30 =   48.9/s Avg:   204 Min:   188 Max:   222 Err:   217 (14.67%) Active: 10 Started: 10 Finished: 0
+summary =  24504 in 00:08:36 =   47.5/s Avg:   208 Min:   188 Max:  4612 Err:  3461 (14.12%)
+summary +   1476 in 00:00:31 =   48.3/s Avg:   206 Min:   188 Max:   704 Err:   196 (13.28%) Active: 10 Started: 10 Finished: 0
+summary =  25980 in 00:09:07 =   47.5/s Avg:   208 Min:   188 Max:  4612 Err:  3657 (14.08%)
+summary +   1479 in 00:00:29 =   50.4/s Avg:   197 Min:   188 Max:   228 Err:   209 (14.13%) Active: 10 Started: 10 Finished: 0
+summary =  27459 in 00:09:36 =   47.7/s Avg:   207 Min:   188 Max:  4612 Err:  3866 (14.08%)
+summary +   1478 in 00:00:30 =   48.8/s Avg:   203 Min:   188 Max:   942 Err:   192 (12.99%) Active: 10 Started: 10 Finished: 0
+summary =  28937 in 00:10:06 =   47.7/s Avg:   207 Min:   188 Max:  4612 Err:  4058 (14.02%)
+summary +   1399 in 00:00:30 =   47.0/s Avg:   212 Min:   203 Max:   231 Err:   214 (15.30%) Active: 10 Started: 10 Finished: 0
+summary =  30336 in 00:10:36 =   47.7/s Avg:   207 Min:   188 Max:  4612 Err:  4272 (14.08%)
+summary +   1402 in 00:00:30 =   46.6/s Avg:   214 Min:   190 Max:   660 Err:   204 (14.55%) Active: 10 Started: 10 Finished: 0
+summary =  31738 in 00:11:06 =   47.7/s Avg:   208 Min:   188 Max:  4612 Err:  4476 (14.10%)
+summary +   1476 in 00:00:30 =   49.3/s Avg:   201 Min:   189 Max:   222 Err:   215 (14.57%) Active: 10 Started: 10 Finished: 0
+summary =  33214 in 00:11:36 =   47.7/s Avg:   207 Min:   188 Max:  4612 Err:  4691 (14.12%)
+summary +   1477 in 00:00:31 =   48.4/s Avg:   206 Min:   189 Max:   928 Err:   222 (15.03%) Active: 10 Started: 10 Finished: 0
+summary =  34691 in 00:12:06 =   47.8/s Avg:   207 Min:   188 Max:  4612 Err:  4913 (14.16%)
+summary +   1479 in 00:00:30 =   49.7/s Avg:   200 Min:   188 Max:   227 Err:   211 (14.27%) Active: 10 Started: 10 Finished: 0
+summary =  36170 in 00:12:36 =   47.8/s Avg:   207 Min:   188 Max:  4612 Err:  5124 (14.17%)
+summary +   1479 in 00:00:30 =   48.6/s Avg:   205 Min:   188 Max:   916 Err:   215 (14.54%) Active: 10 Started: 10 Finished: 0
+summary =  37649 in 00:13:07 =   47.9/s Avg:   207 Min:   188 Max:  4612 Err:  5339 (14.18%)
+summary +   1397 in 00:00:29 =   48.3/s Avg:   206 Min:   189 Max:   225 Err:   195 (13.96%) Active: 10 Started: 10 Finished: 0
+summary =  39046 in 00:13:36 =   47.9/s Avg:   207 Min:   188 Max:  4612 Err:  5534 (14.17%)
+summary +   1479 in 00:00:31 =   47.6/s Avg:   210 Min:   189 Max:   890 Err:   210 (14.20%) Active: 10 Started: 10 Finished: 0
+summary =  40525 in 00:14:07 =   47.9/s Avg:   207 Min:   188 Max:  4612 Err:  5744 (14.17%)
+summary +   1479 in 00:00:29 =   50.2/s Avg:   198 Min:   188 Max:   221 Err:   239 (16.16%) Active: 10 Started: 10 Finished: 0
+summary =  42004 in 00:14:36 =   47.9/s Avg:   207 Min:   188 Max:  4612 Err:  5983 (14.24%)
+summary +   1303 in 00:00:25 =   53.1/s Avg:   198 Min:   188 Max:   220 Err:   193 (14.81%) Active: 0 Started: 10 Finished: 10
+summary =  43307 in 00:15:01 =   48.1/s Avg:   206 Min:   188 Max:  4612 Err:  6176 (14.26%)
+Tidying up remote @ Wed Apr 03 10:09:25 UTC 2024 (1712138965403)
+Exiting remote servers:[ClientJMeterEngine [hostAndPort=10.35.0.14]]
+Exiting remote server:ClientJMeterEngine [hostAndPort=10.35.0.14]
+... end of run

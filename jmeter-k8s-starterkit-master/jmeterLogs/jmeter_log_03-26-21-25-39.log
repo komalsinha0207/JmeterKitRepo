@@ -1,0 +1,178 @@
+2024-03-26 15:56:53,888 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-03-26 15:56:54,080 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-03-26 15:56:54,080 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-03-26 15:56:54,081 INFO o.a.j.JMeter: Setting System property: server.rmi.ssl.disable=true
+2024-03-26 15:56:54,087 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2024-03-26 15:56:54,087 INFO o.a.j.JMeter: Version 5.4.1
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: java.version=16.0.2
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: os.name=Linux
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: os.arch=amd64
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: os.version=6.5.0-1015-aws
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: java.awt.headless=null
+2024-03-26 15:56:54,088 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-03-26 15:56:54,089 INFO o.a.j.JMeter: Available Processors =1
+2024-03-26 15:56:54,188 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-03-26 15:56:54,188 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-03-26 15:56:54,188 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter/apache-jmeter-5.4.1
+2024-03-26 15:56:54,188 INFO o.a.j.JMeter: user.dir  =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-03-26 15:56:54,189 INFO o.a.j.JMeter: PWD       =/opt/jmeter/apache-jmeter-5.4.1/bin
+2024-03-26 15:56:54,278 INFO o.a.j.JMeter: IP: 10.35.0.12 Name: jmeter-master03-26-21-25-39-xw972 FullName: jmeter-master03-26-21-25-39-xw972
+2024-03-26 15:56:54,282 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547'
+2024-03-26 15:56:54,378 INFO o.a.j.s.FileServer: Default base='/opt/jmeter/apache-jmeter-5.4.1/bin'
+2024-03-26 15:56:54,380 INFO o.a.j.s.FileServer: Set new base='/opt/jmeter/apache-jmeter-5.4.1/bin'
+2024-03-26 15:56:55,883 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-26 15:56:56,084 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-26 15:56:56,088 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-26 15:56:56,180 INFO o.a.j.s.SaveService: Loading file: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-03-26 15:56:56,581 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-26 15:56:56,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 15:56:56,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 15:56:56,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 15:56:56,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-26 15:56:56,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-26 15:56:56,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-26 15:56:57,081 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-26 15:56:57,082 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-26 15:56:57,082 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-26 15:56:57,082 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-26 15:56:57,285 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-03-26 15:56:57,378 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2024-03-26 15:56:57,378 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /report/PetStoreAPIScriptDynamicBuildNumber1.jmx_2024-03-26_155547.jtl
+2024-03-26 15:56:57,379 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/apache-jmeter-5.4.1/bin/reportgenerator.properties
+2024-03-26 15:56:57,380 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2024-03-26 15:56:57,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2024-03-26 15:56:57,387 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2024-03-26 15:56:57,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2024-03-26 15:56:57,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2024-03-26 15:56:57,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2024-03-26 15:56:57,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2024-03-26 15:56:57,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2024-03-26 15:56:57,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2024-03-26 15:56:57,389 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2024-03-26 15:56:57,482 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,482 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,482 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,482 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,483 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,484 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-03-26 15:56:57,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2024-03-26 15:56:57,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2024-03-26 15:56:57,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2024-03-26 15:56:57,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2024-03-26 15:56:57,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2024-03-26 15:56:57,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2024-03-26 15:56:57,580 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 10.35.0.13
+2024-03-26 15:56:57,582 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:56:58,079 INFO o.a.j.e.DistributedRunner: Starting distributed test with remote engines: [10.35.0.13] @ Tue Mar 26 15:56:58 UTC 2024 (1711468618079)
+2024-03-26 15:56:58,080 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2024-03-26 15:56:58,085 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-03-26 15:56:58,085 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-03-26 15:56:58,585 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:56:58,585 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:56:58,588 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-26 15:56:58,685 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-03-26 15:56:58,685 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-03-26 15:56:58,686 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:56:58,686 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,783 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,783 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,784 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,785 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,785 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-03-26 15:57:02,785 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-03-26 15:57:02,785 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,785 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,785 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-03-26 15:57:02,786 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-03-26 15:57:02,786 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,786 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,786 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-03-26 15:57:02,786 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-03-26 15:57:02,786 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,786 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,787 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-03-26 15:57:02,787 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-03-26 15:57:02,787 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,787 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-03-26 15:57:02,787 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2024-03-26 15:57:02,787 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2024-03-26 15:57:03,771 INFO o.a.j.e.ClientJMeterEngine: sent test to 10.35.0.13 basedir='.'
+2024-03-26 15:57:03,771 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2024-03-26 15:57:03,858 INFO o.a.j.e.ClientJMeterEngine: sent run command to 10.35.0.13
+2024-03-26 15:57:03,858 INFO o.a.j.e.DistributedRunner: Remote engines have been started:[10.35.0.13]
+2024-03-26 15:57:04,579 INFO o.a.j.v.b.BackendListener: Backend Listener 1: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-03-26 15:57:04,580 INFO o.a.j.v.b.BackendListener: Backend Listener 1: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-03-26 15:57:06,584 INFO o.a.j.v.b.BackendListener: Backend Listener 2: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2024-03-26 15:57:06,585 INFO o.a.j.v.b.BackendListener: Backend Listener 2: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2024-03-26 15:57:08,081 INFO o.a.j.JMeter: Started remote host:  10.35.0.13 (1711468628081)
+2024-03-26 15:57:31,080 INFO o.a.j.r.Summariser: summary +    704 in 00:00:23 =   30.6/s Avg:   272 Min:   189 Max:  4817 Err:   105 (14.91%) Active: 10 Started: 10 Finished: 0
+2024-03-26 15:58:01,358 INFO o.a.j.r.Summariser: summary +   1476 in 00:00:30 =   48.7/s Avg:   204 Min:   188 Max:   282 Err:   199 (13.48%) Active: 10 Started: 10 Finished: 0
+2024-03-26 15:58:01,358 INFO o.a.j.r.Summariser: summary =   2180 in 00:00:53 =   40.9/s Avg:   226 Min:   188 Max:  4817 Err:   304 (13.94%)
+2024-03-26 15:58:30,358 INFO o.a.j.r.Summariser: summary +   1402 in 00:00:29 =   48.3/s Avg:   206 Min:   189 Max:   991 Err:   193 (13.77%) Active: 10 Started: 10 Finished: 0
+2024-03-26 15:58:30,359 INFO o.a.j.r.Summariser: summary =   3582 in 00:01:22 =   43.5/s Avg:   218 Min:   188 Max:  4817 Err:   497 (13.87%)
+2024-03-26 15:59:00,195 INFO o.a.j.r.Summariser: summary +   1475 in 00:00:30 =   49.4/s Avg:   201 Min:   190 Max:   272 Err:   200 (13.56%) Active: 10 Started: 10 Finished: 0
+2024-03-26 15:59:00,195 INFO o.a.j.r.Summariser: summary =   5057 in 00:01:52 =   45.1/s Avg:   213 Min:   188 Max:  4817 Err:   697 (13.78%)
+2024-03-26 15:59:31,190 INFO o.a.j.r.Summariser: summary +   1481 in 00:00:31 =   47.8/s Avg:   208 Min:   188 Max:   840 Err:   194 (13.10%) Active: 10 Started: 10 Finished: 0
+2024-03-26 15:59:31,190 INFO o.a.j.r.Summariser: summary =   6538 in 00:02:23 =   45.7/s Avg:   212 Min:   188 Max:  4817 Err:   891 (13.63%)
+2024-03-26 16:00:00,009 INFO o.a.j.r.Summariser: summary +   1398 in 00:00:29 =   48.5/s Avg:   205 Min:   188 Max:   289 Err:   198 (14.16%) Active: 10 Started: 10 Finished: 0
+2024-03-26 16:00:00,010 INFO o.a.j.r.Summariser: summary =   7936 in 00:02:52 =   46.2/s Avg:   211 Min:   188 Max:  4817 Err:  1089 (13.72%)
+2024-03-26 16:00:08,575 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-03-26 16:00:08,576 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-03-26 16:00:08,577 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-03-26 16:00:08,587 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-03-26 16:00:08,588 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2024-03-26 16:00:08,594 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2024-03-26 16:00:08,597 INFO o.a.j.r.Summariser: summary +    489 in 00:00:09 =   56.9/s Avg:   205 Min:   188 Max:   238 Err:    63 (12.88%) Active: 0 Started: 10 Finished: 10
+2024-03-26 16:00:08,597 INFO o.a.j.r.Summariser: summary =   8425 in 00:03:01 =   46.7/s Avg:   210 Min:   188 Max:  4817 Err:  1152 (13.67%)
+2024-03-26 16:00:08,598 INFO o.a.j.JMeter: Finished remote host: 10.35.0.13 (1711468808598)
+2024-03-26 16:00:08,598 INFO o.a.j.JMeter: All remote engines have ended test, starting RemoteTestStopper thread
+2024-03-26 16:00:08,600 INFO o.a.j.e.ClientJMeterEngine: about to exit remote server on 10.35.0.13
+2024-03-26 16:00:13,782 INFO o.a.j.JMeter: Interrupting RMI Reaper
+2024-03-26 16:00:13,783 INFO o.a.j.JMeter: Generating Dashboard
+2024-03-26 16:00:13,783 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2024-03-26 16:00:13,982 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2024-03-26 16:00:18,283 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2024-03-26 16:00:18,283 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2024-03-26 16:00:18,285 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2024-03-26 16:00:18,285 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2024-03-26 16:00:18,287 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2024-03-26 16:00:18,292 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2024-03-26 16:00:18,292 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2024-03-26 16:00:18,292 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2024-03-26 16:00:19,280 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2024-03-26 16:00:19,280 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2024-03-26 16:00:19,281 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2024-03-26 16:00:19,281 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2024-03-26 16:00:20,080 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2024-03-26 16:00:20,080 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 58975 samples
+2024-03-26 16:00:20,080 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2024-03-26 16:00:20,080 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2024-03-26 16:00:20,081 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2024-03-26 16:00:20,081 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2024-03-26 16:00:20,081 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2024-03-26 16:00:20,082 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2024-03-26 16:00:20,085 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2024-03-26 16:00:20,086 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2024-03-26 16:00:20,086 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2024-03-26 16:00:20,086 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2024-03-26 16:00:20,087 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 162420 samples
+2024-03-26 16:00:20,087 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 32484 samples
+2024-03-26 16:00:20,087 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 10828 samples
+2024-03-26 16:00:20,087 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 10828 samples produced in 6s 3 ms on channel 0
+2024-03-26 16:00:20,087 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2024-03-26 16:00:21,082 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2024-03-26 16:00:21,082 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2024-03-26 16:00:21,082 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2024-03-26 16:00:21,083 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2024-03-26 16:00:21,084 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547/statistics.json
+2024-03-26 16:00:21,285 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2024-03-26 16:00:21,287 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547
+2024-03-26 16:00:22,180 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547, creating folder structure
+2024-03-26 16:00:22,183 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/jmeter/apache-jmeter-5.4.1/bin/report-template' to '/report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547', got message: /report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547, found non empty folder with following content [/report/report-PetStoreAPIScriptDynamicBuildNumber1.jmx-2024-03-26_155547/statistics.json], will be ignored
+2024-03-26 16:00:24,088 INFO o.a.j.JMeter: Dashboard generated

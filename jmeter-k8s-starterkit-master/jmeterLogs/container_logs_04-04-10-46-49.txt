@@ -1,0 +1,90 @@
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Apr 04, 2024 5:17:41 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-04-04 05:17:41,804 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-04-04 05:17:42,296 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-76856f18d738db7a15bcf9a2be064f26-nongui
+2024-04-04 05:17:48,746 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=plugin-manager, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2024-04-04 05:17:48,749 INFO o.j.r.PluginManagerCMD: Params line is: PetStoreAPIScriptDynamicBuildNumber1.jmx
+2024-04-04 05:17:50,999 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-04 05:17:51,151 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-04 05:17:51,198 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-04 05:17:51,348 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 05:17:51,449 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:51,450 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:51,450 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:51,450 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 05:17:51,450 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 05:17:51,450 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 05:17:51,997 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 05:17:51,998 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 05:17:51,998 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 05:17:51,998 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 05:17:52,056 INFO o.j.r.JARSourceHTTP: Downloading: http://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+2024-04-04 05:17:52,056 INFO o.j.r.PluginManagerCMD: Downloading json-lib...
+2024-04-04 05:17:53,754 INFO o.j.r.PluginManagerCMD: Downloaded json-lib...
+2024-04-04 05:17:53,794 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2024-04-04 05:17:53,797 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+Done installing plugins, launching test
+Couldn't start agent for process matching "JMeter" (PID: 296)
+Possible reason could be that port '8778' is already occupied.
+Please check the standard output of the target process for a detailed error message.
+I> No access restrictor found, access to any MBean is allowed
+Starting load test at : Thu Apr  4 05:16:58 UTC 2024
+Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
+Creating summariser <summary>
+Created the tree successfully using PetStoreAPIScriptDynamicBuildNumber1.jmx
+Configuring remote engine: 10.35.0.23
+Starting distributed test with remote engines: [10.35.0.23] @ Thu Apr 04 05:18:10 UTC 2024 (1712207890105)
+Remote engines have been started:[10.35.0.23]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    158 in 00:00:12 =   13.3/s Avg:   510 Min:   205 Max:  4907 Err:    18 (11.39%) Active: 10 Started: 10 Finished: 0
+summary +   1323 in 00:00:29 =   46.1/s Avg:   215 Min:   204 Max:   305 Err:   185 (13.98%) Active: 10 Started: 10 Finished: 0
+summary =   1481 in 00:00:41 =   36.5/s Avg:   246 Min:   204 Max:  4907 Err:   203 (13.71%)
+summary +   1400 in 00:00:30 =   46.2/s Avg:   215 Min:   191 Max:   979 Err:   186 (13.29%) Active: 10 Started: 10 Finished: 0
+summary =   2881 in 00:01:11 =   40.6/s Avg:   231 Min:   191 Max:  4907 Err:   389 (13.50%)
+summary +   1479 in 00:00:30 =   48.8/s Avg:   204 Min:   191 Max:   267 Err:   207 (14.00%) Active: 10 Started: 10 Finished: 0
+summary =   4360 in 00:01:41 =   43.1/s Avg:   222 Min:   191 Max:  4907 Err:   596 (13.67%)
+summary +   1398 in 00:00:30 =   46.5/s Avg:   213 Min:   190 Max:  1512 Err:   188 (13.45%) Active: 10 Started: 10 Finished: 0
+summary =   5758 in 00:02:11 =   43.8/s Avg:   220 Min:   190 Max:  4907 Err:   784 (13.62%)
+summary +   1479 in 00:00:30 =   48.6/s Avg:   205 Min:   190 Max:   287 Err:   220 (14.87%) Active: 10 Started: 10 Finished: 0
+summary =   7237 in 00:02:42 =   44.7/s Avg:   217 Min:   190 Max:  4907 Err:  1004 (13.87%)
+summary +   1400 in 00:00:30 =   46.8/s Avg:   211 Min:   190 Max:  1154 Err:   202 (14.43%) Active: 10 Started: 10 Finished: 0
+summary =   8637 in 00:03:12 =   45.1/s Avg:   216 Min:   190 Max:  4907 Err:  1206 (13.96%)
+summary +   1401 in 00:00:29 =   48.7/s Avg:   205 Min:   192 Max:   300 Err:   200 (14.28%) Active: 10 Started: 10 Finished: 0
+summary =  10038 in 00:03:40 =   45.5/s Avg:   214 Min:   190 Max:  4907 Err:  1406 (14.01%)
+summary +   1476 in 00:00:31 =   48.1/s Avg:   207 Min:   191 Max:   674 Err:   231 (15.65%) Active: 10 Started: 10 Finished: 0
+summary =  11514 in 00:04:11 =   45.8/s Avg:   214 Min:   190 Max:  4907 Err:  1637 (14.22%)

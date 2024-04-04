@@ -1,0 +1,35 @@
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 not ready
+Waiting for slave readiness
+10.35.0.23 ready
+Waiting for slave readiness
+Installing needed plugins for master

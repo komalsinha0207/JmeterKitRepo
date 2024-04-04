@@ -1,0 +1,69 @@
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 not ready
+10.35.0.14 not ready
+10.35.0.15 not ready
+Waiting for slave readiness
+10.35.0.13 ready
+10.35.0.14 ready
+10.35.0.15 ready
+Waiting for slave readiness
+Installing needed plugins for master
+Mar 29, 2024 10:18:58 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+2024-03-29 10:18:57,946 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2024-03-29 10:18:58,358 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-47f707c7d125fb8005ba41e56065c7f4-nongui

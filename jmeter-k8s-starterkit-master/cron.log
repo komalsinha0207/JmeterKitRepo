@@ -1,0 +1,14 @@
+ [[91m ERROR [0m] [ 21-12-23 12:36:01 ]  Test script file was not found in scenario/DashboardTest/DashboardTest.jmx [0m 
+ [[94m INFO [0m] [ 21-12-23 12:36:01 ] -j <filename.jmx> [0m
+ [[94m INFO [0m] [ 21-12-23 12:36:01 ] -n <namespace> [0m
+ [[94m INFO [0m] [ 21-12-23 12:36:01 ] -c flag to split and copy csv if you use csv in your test [0m
+ [[94m INFO [0m] [ 21-12-23 12:36:01 ] -m flag to copy fragmented jmx present in scenario/project/module if you use include controller and external test fragment [0m
+ [[94m INFO [0m] [ 21-12-23 12:36:01 ] -i <injectorNumber> to scale slaves pods to the desired number of JMeter injectors [0m
+ [[94m INFO [0m] [ 21-12-23 12:36:01 ] -r flag to enable report generation at the end of the test [0m
+ [[91m ERROR [0m] [ 21-12-23 12:40:01 ]  Test script file was not found in scenario/DashboardTest/DashboardTest.jmx [0m 
+ [[94m INFO [0m] [ 21-12-23 12:40:01 ] -j <filename.jmx> [0m
+ [[94m INFO [0m] [ 21-12-23 12:40:01 ] -n <namespace> [0m
+ [[94m INFO [0m] [ 21-12-23 12:40:01 ] -c flag to split and copy csv if you use csv in your test [0m
+ [[94m INFO [0m] [ 21-12-23 12:40:01 ] -m flag to copy fragmented jmx present in scenario/project/module if you use include controller and external test fragment [0m
+ [[94m INFO [0m] [ 21-12-23 12:40:01 ] -i <injectorNumber> to scale slaves pods to the desired number of JMeter injectors [0m
+ [[94m INFO [0m] [ 21-12-23 12:40:01 ] -r flag to enable report generation at the end of the test [0m
